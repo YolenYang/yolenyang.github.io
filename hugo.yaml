@@ -1,0 +1,42 @@
+baseURL: "https://yolenyang.github.io/"
+title: "My Tech Blog"
+pagination:
+  pagerSize: 10
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: My Tech Blog
+  description: "专注于后端架构与系统设计"
+  author: yanglei
+  defaultTheme: auto 
+  ShowReadingTime: true 
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  # 社交链接
+  socialIcons:
+    - name: github
+      url: "https://github.com/yolenyang"
+
+menu:
+  main:
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
